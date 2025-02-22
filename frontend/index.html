@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>S.H.A.D.O.W</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    <main class="w-full h-screen flex flex-col justify-center items-center bg-black text-cyan-500 gap-5">
+  </head>
+  <body>
+    <main
+      class="w-full h-screen flex flex-col items-center bg-black text-yellow-500 gap-10 p-4 overflow-hidden"
+    >
+      <div class="text-center">
         <h1 class="text-5xl font-semibold">S.H.A.D.O.W</h1>
         <p class="text-xl">(Smart Hand and Audio Driven Operating Wizard)</p>
-       <img src="./images/shadow.png" class="shadow-lg bg-transparent" alt="shadow">
+      </div>
+      <div class="w-full h-full flex justify-center items-center">
+        <div class="w-[80%] flex justify-center items-center relative">
+          <img
+            src="./images/shadow-1.jpg"
+            class="w-[40%] h-[65%] shadow-lg"
+            alt="shadow"
+          />
+          <img
+            src="./images/voice.png"
+            alt="voice"
+            title="Voice Assistant"
+            class="absolute top-[-40px] left-90 w-20 h-20 p-2 bg-zinc-300 rounded-full cursor-pointer hover:scale-110 hover:rotate-360 duration-900 transition-transform hover:shadow-xl shadow-yellow-600"
+          />
+          <img
+            src="./images/mouse.png"
+            alt="mouse"
+            title="Virtual Mouse"
+            class="absolute top-[-40px] right-90 w-20 h-20 p-2 bg-zinc-300 rounded-full cursor-pointer hover:scale-110 hover:rotate-[-20deg] duration-300 transition-transform hover:shadow-xl shadow-yellow-600"
+          />
+          <img
+            src="./images/keyboard.png"
+            alt="keyboard"
+            title="Virtual Keyboard"
+            class="absolute bottom-35 left-95 w-20 h-20 p-2 bg-zinc-300 rounded-full cursor-pointer hover:scale-110 transition-transform hover:shadow-xl shadow-yellow-600"
+          />
+          <img
+            src="./images/exit.png"
+            alt="exit"
+            title="Exit"
+            class="absolute bottom-35 right-90 w-20 h-20 bg-zinc-300 rounded-full cursor-pointer hover:scale-110 transition-transform hover:shadow-xl shadow-yellow-600"
+          />
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
