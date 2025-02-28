@@ -26,9 +26,7 @@
       <div
         class="absolute z-[999] w-full h-full flex flex-col items-center justify-center gap-10"
       >
-        <div
-          class="text-center p-4 bg-white/10  mt-10 rounded-xl gap-5"
-        >
+        <div class="text-center p-4 bg-white/10 mt-10 rounded-xl gap-5">
           <h1 class="text-5xl text-yellow-500 font-semibold">S.H.A.D.O.W</h1>
           <p class="text-xl text-white font-semibold tracking-wider">
             <span class="text-red-400">S</span>mart
@@ -46,12 +44,14 @@
               class="w-[40%] h-[65%] object-contain bg-none"
               alt="shadow"
             />
-            <img
-              src="./images/voice.png"
-              alt="voice"
-              title="Voice Assistant"
-              class="absolute top-[50px] left-80 w-20 h-20 p-2 bg-zinc-300 rounded-full cursor-pointer hover:scale-120 hover:rotate-360 duration-900 transition-transform shadow-xl shadow-red-600 hover:shadow-blue-600"
-            />
+            <button id="startAssistant">
+              <img
+                src="./images/voice.png"
+                alt="voice"
+                title="Voice Assistant"
+                class="absolute top-[50px] left-80 w-20 h-20 p-2 bg-zinc-300 rounded-full cursor-pointer hover:scale-120 hover:rotate-360 duration-900 transition-transform shadow-xl shadow-red-600 hover:shadow-blue-600"
+              />
+            </button>
             <img
               src="./images/mouse.png"
               alt="mouse"
@@ -74,5 +74,6 @@
         </div>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
